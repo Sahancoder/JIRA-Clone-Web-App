@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+/* JIRA Brand Colors - Light Mode Only */
+:root {
+  /* Core Brand Palette */
+  --jira-primary: #2684FF;      /* Main action color */
+  --jira-deep-blue: #0052CC;    /* Logo, nav, emphasis */
+  --jira-navy: #253858;         /* Headings, borders, icons */
+  --jira-white: #FFFFFF;        /* Default background */
+  
+  /* Soft Neutrals */
+  --jira-gray-50: #F4F5F7;      /* Subtle backgrounds */
+  --jira-gray-100: #EBECF0;     /* Dividers, muted states */
+  --jira-gray-200: #DFE1E6;     /* Borders */
+  --jira-gray-300: #C1C7D0;     /* Disabled text */
+  --jira-gray-400: #7A869A;     /* Secondary text */
+  --jira-gray-500: #505F79;     /* Body text */
+  
+  /* Semantic Colors */
+  --jira-success: #00875A;
+  --jira-warning: #FF8B00;
+  --jira-danger: #DE350B;
+  --jira-info: #0065FF;
+  
+  /* Chart Accent Colors */
+  --jira-accent-green: #36B37E;
+  --jira-accent-orange: #FF991F;
+  --jira-accent-purple: #6554C0;
+  --jira-accent-teal: #00B8D9;
+  --jira-accent-red: #FF5630;
+  
+  /* CSS Variable Mappings */
+  --background: var(--jira-white);
+  --foreground: var(--jira-navy);
+}
+
+@theme inline {
+  /* Tailwind v4 Theme Configuration */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  /* JIRA Brand Colors */
+  --color-primary: var(--jira-primary);
+  --color-primary-hover: var(--jira-deep-blue);
+  --color-deep-blue: var(--jira-deep-blue);
+  --color-navy: var(--jira-navy);
+  
+  /* Grays */
+  --color-gray-50: var(--jira-gray-50);
+  --color-gray-100: var(--jira-gray-100);
+  --color-gray-200: var(--jira-gray-200);
+  --color-gray-300: var(--jira-gray-300);
+  --color-gray-400: var(--jira-gray-400);
+  --color-gray-500: var(--jira-gray-500);
+  
+  /* Semantic */
+  --color-success: var(--jira-success);
+  --color-warning: var(--jira-warning);
+  --color-danger: var(--jira-danger);
+  --color-info: var(--jira-info);
+  
+  /* Fonts */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* NO DARK MODE - JIRA is light mode only */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--jira-navy);
+  font-weight: 600;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--jira-gray-50);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--jira-gray-300);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--jira-gray-400);
+}
