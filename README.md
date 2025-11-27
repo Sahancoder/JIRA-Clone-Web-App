@@ -1,25 +1,25 @@
-# Chyra - Modern Project Management Platform
+# JIRA Clone - Modern Project Management Platform
 
-![Chyra](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
+![JIRA](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?logo=tailwindcss)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 A modern, free-tier-friendly project management platform inspired by Jira, built with Next.js 16, Hono, Appwrite, and Google Gemini AI.
 
-## ✨ Features
+##  Features
 
-- 🎨 **Beautiful Chyra Brand Design** - Light-mode-only UI with signature blue (#2684FF) and white palette
-- 📋 **Kanban Boards** - Drag-and-drop task management with Lexorank positioning
-- 📊 **Analytics Dashboard** - Real-time insights into team performance and project metrics
-- 🤖 **AI Assistant** - Powered by Google Gemini 1.5 Flash for task generation and project insights
-- 📅 **Calendar View** - Track deadlines and milestones
-- 👥 **Team Collaboration** - Workspaces, projects, and member management
-- 📱 **Responsive Design** - Works seamlessly on desktop and mobile
-- ⚡ **Real-time Updates** - Live collaboration with Appwrite Realtime
-- 🔒 **Secure Authentication** - Cookie-based sessions with Appwrite Auth
+-  **Beautiful Chyra Brand Design** - Light-mode-only UI with signature blue (#2684FF) and white palette
+-  **Kanban Boards** - Drag-and-drop task management with Lexorank positioning
+-  **Analytics Dashboard** - Real-time insights into team performance and project metrics
+-  **AI Assistant** - Powered by Google Gemini 1.5 Flash for task generation and project insights
+-  **Calendar View** - Track deadlines and milestones
+-  **Team Collaboration** - Workspaces, projects, and member management
+-  **Responsive Design** - Works seamlessly on desktop and mobile
+-  **Real-time Updates** - Live collaboration with Appwrite Realtime
+-  **Secure Authentication** - Cookie-based sessions with Appwrite Auth
 
-## 🎨 Brand Colors
+##  Brand Colors
 
 Chyra uses a bright, SaaS-style light-mode palette:
 
@@ -31,7 +31,7 @@ Chyra uses a bright, SaaS-style light-mode palette:
 | **White** | `#FFFFFF` | Default background, cards |
 | **Gray Neutrals** | `#F4F5F7` / `#EBECF0` | Secondary backgrounds, dividers |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -79,7 +79,7 @@ Chyra uses a bright, SaaS-style light-mode palette:
 
    Open [http://localhost:3000](http://localhost:3000) to see the app.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 chyra-jira/
@@ -140,13 +140,13 @@ chyra-jira/
 ### Deployment
 - **[Vercel](https://vercel.com)** - Hosting and deployment
 
-## 📚 Documentation
+##  Documentation
 
 - [Copilot Implementation Guide](../COPILOT_GUIDE.md) - Step-by-step guide for building with GitHub Copilot
 - API Documentation - Backend API reference (coming soon)
 - Deployment Guide - Production deployment instructions (coming soon)
 
-## 🎯 Current Status
+##  Current Status
 
 ### Phase 1: Foundation ✅ (COMPLETED)
 - ✅ Next.js 16 + Tailwind CSS v4 setup
@@ -165,7 +165,7 @@ Follow the [COPILOT_GUIDE.md](../COPILOT_GUIDE.md) to implement:
 - Auth middleware
 - Protected routes
 
-## 🚀 Development
+##  Development
 
 ```bash
 # Install dependencies
@@ -184,14 +184,14 @@ npm start
 npm run lint
 ```
 
-## 🔗 Quick Links
+##  Quick Links
 
 - **Local App**: http://localhost:3000
 - **API Health**: http://localhost:3000/api/health
 - **Appwrite Console**: https://cloud.appwrite.io
 - **Google AI Studio**: https://aistudio.google.com
 
-## 🎨 Using Chyra Colors in Your Code
+##  Using Chyra Colors in Your Code
 
 ```tsx
 // Tailwind classes
@@ -210,7 +210,7 @@ const styles = {
 }
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please read our Contributing Guide for details.
 
@@ -222,8 +222,8 @@ This project is licensed under the MIT License.
 
 - Inspired by [Atlassian Jira](https://www.atlassian.com/software/jira)
 - Brand colors from [Jira Color Palette](https://www.brandcolorcode.com/jira-software)
-- Built with ❤️ using free-tier services
+
 
 ---
 
-**Made with ❤️ and GitHub Copilot**
+**Made By Sahan Hettiarachchi **
