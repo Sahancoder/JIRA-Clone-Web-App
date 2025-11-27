@@ -1,4 +1,5 @@
 # JIRA Clone - Modern Project Management Platform
+![Jira Clone Screenshot](./Screenshot%202025-11-27%20053157.png)
 
 ![JIRA](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
